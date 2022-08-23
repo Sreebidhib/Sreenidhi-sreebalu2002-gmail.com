@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .reg-form{
+            text-align: center;
+
+        }
+        body{
+            background-size: cover;
+        }
+    </style>
+</head>
+<body style="background-image:url('airplane-sunset.jpg');">
+
+    <form action="register.php" method="post">
+    <div class="reg-form">
+        <div class="reg-title">
+            <h1 style="color: #fe4f7c;">Register </h1>
+        </div>
+        <div class="inputboxes">
+                <div>
+                    <label for="username"></label>
+                <input type="text" name="username" placeholder="Username">
+                </div><br>
+                <div>
+                    <label for="password"></label>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+        </div><br>
+        <div>
+            <input type="submit" value="Register">
+        </div>
+    </div>
+    </form>
+    <p style="color: #fe4f7c; text-align: center; font-size: 30px;">Already have an account? <a href="login.html">Login</a></p>
+
+</body>
+</html>
